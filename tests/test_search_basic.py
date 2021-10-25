@@ -1,5 +1,5 @@
 """
-Oliver basic Search test.
+Basic Search test.
 """
 
 def test_basic_search(browser):
