@@ -42,5 +42,5 @@
 
 10. #### Run below to run tests
 - `pipenv run python -m pytest` 
-OR
+
 - `pipenv run python -m pytest -s` 
