@@ -23,7 +23,7 @@
 
 ### Download Chromedriver and move (mv) to /usr/local/bin
 ###### https://chromedriver.chromium.org/downloads
-mv /path/to/ChromeDriver /usr/local/bin
+`mv /path/to/ChromeDriver /usr/local/bin`
 
 ---
 
