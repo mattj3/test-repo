@@ -3,23 +3,17 @@
 
 - `echo "Homebrew install complete"`
 
----
-
-### Install python3
+2. #### Install python3
 `brew install python3`
 
 `python3 -V`
 
 `pip3 -V`
 
----
-
-### Install pipenv
+3. #### Install pipenv
 `pip3 install pipenv`
 
 `pipenv --version`
-
----
 
 ### Download Chromedriver and move (mv) to /usr/local/bin
 ###### https://chromedriver.chromium.org/downloads
