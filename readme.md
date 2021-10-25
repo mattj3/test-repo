@@ -35,11 +35,12 @@
 7. #### Modify conftest.py to change config_local location
 
 8. #### Run pipenv install to install dependencies 
-`pipenv install`
+- `pipenv install`
 
 9. #### Run pipenv run python -m pytest to verify that the framework can run tests
-`pipenv run python -m`
+- `pipenv run python -m`
 
 10. #### Run below to run tests
-`pipenv run python -m pytest` 
-`pipenv run python -m pytest -s` 
+- `pipenv run python -m pytest` 
+OR
+- `pipenv run python -m pytest -s` 
