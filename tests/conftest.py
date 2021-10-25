@@ -7,7 +7,7 @@ import pytest
 import selenium.webdriver
 import time
 
-# Location of local config
+# Location of local config, change to the location on your local machine 
 config_local = '/Users/matthewjohnson/Desktop/config.json'
 
 @pytest.fixture
