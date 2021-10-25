@@ -1,4 +1,4 @@
-### Install Homebrew (if needed)
+1. #### Install Homebrew (if needed)
 `curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh`
 
 `echo "Homebrew install complete"`
