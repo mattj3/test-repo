@@ -15,17 +15,13 @@
 
 - `pipenv --version`
 
-### Download Chromedriver and move (mv) to /usr/local/bin
-###### https://chromedriver.chromium.org/downloads
-`mv /path/to/ChromeDriver /usr/local/bin`
+4. #### Download Chromedriver and move (mv) to /usr/local/bin
+- https://chromedriver.chromium.org/downloads
+- `mv /Users/yourusername/Downloads/chromedriver /usr/local/bin/`
 
----
+5. #### Clone this repo
 
-### Clone this repo
-
----
-
-### Create `config.json` on local machine with the following template
+6. #### Create `config.json` on local machine with the following template
 ```
 {
 	"browser": "Chrome",
@@ -36,21 +32,14 @@
 }
 ```
 
----
+7. #### Modify conftest.py to change config_local location
 
-### Modify conftest.py to change config_local location
-
----
-
-### Run pipenv install to install dependencies 
+8. #### Run pipenv install to install dependencies 
 `pipenv install`
 
----
-
-### Run pipenv run python -m pytest to verify that the framework can run tests
+9. #### Run pipenv run python -m pytest to verify that the framework can run tests
 `pipenv run python -m`
 
----
-
-### Run below to run tests
-`pipenv run python -m pytest`
+10. #### Run below to run tests
+`pipenv run python -m pytest` 
+`pipenv run python -m pytest -s` 
