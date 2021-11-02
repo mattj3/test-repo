@@ -45,7 +45,7 @@
 
 - `pipenv run python -m pytest -s` 
 
-
+---
 
 Notes: 
 Sometimes you may run into an issue where a certain element on a page is not interactable because it is not currently in the window view. If you run into this give the following a shot:
