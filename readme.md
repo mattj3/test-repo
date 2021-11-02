@@ -46,12 +46,14 @@
 - `pipenv run python -m pytest -s` 
 
 
+
 Notes: 
 Sometimes you may run into an issue where a certain element on a page is not interactable because it is not currently in the window view. If you run into this give the following a shot:
 
-- Add a time.sleep() and experiment with various times. 
+Add a `time.sleep()` and experiment with various times. 
 
 OR 
 
--   # element = browser.find_element_by_id("submit")
-    # browser.execute_script("arguments[0].scrollIntoView()", element)
+`element = browser.find_element_by_id("submit")`
+
+`browser.execute_script("arguments[0].scrollIntoView()", element)`
