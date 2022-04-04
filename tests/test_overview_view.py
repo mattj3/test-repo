@@ -1,5 +1,6 @@
 """
-Matter Overview check.  
+Matter Overview check. 
+Simple test. Can be replaced by something more comprehensive in the future. 
 """
 
 def test_overview_view(browser, config):

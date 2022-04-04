@@ -1,5 +1,5 @@
 """
-Add template test via UI.  
+Add document template test via UI.  
 """
 
 import time

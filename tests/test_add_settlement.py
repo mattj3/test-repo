@@ -20,25 +20,26 @@ def test_add_settlement(browser, config):
 
     ActionChains(browser).move_to_element(elem).click().send_keys("2023/01/01").perform()
 
-    time.sleep(0.75)
+    time.sleep(2)
 
     browser.find_element_by_id("settlement-debtor-contacts--1--contact-status-contact-declined email").click()
+
+    time.sleep(2)
+
+    # put this one here as a hack as it helps bring the page down to access the other debtor contacts (if required)
+    browser.find_element_by_id("settlement-note").send_keys("Test Note " + str(time.time()))
 
     try:
         browser.find_element_by_id("settlement-debtor-contacts--2--contact-status-contact-declined email").click()
     except:
         print("No element found: settlement-debtor-contacts--2--contact-status-contact-declined email")
-
+    
     try:
         browser.find_element_by_id("settlement-debtor-contacts--3--contact-status-contact-declined email").click()
     except:
         print("No element found: settlement-debtor-contacts--3--contact-status-contact-declined email")
 
-    time.sleep(0.75)
-
-    browser.find_element_by_id("settlement-note").send_keys("Test Note " + str(time.time()))
-
-    time.sleep(0.75)
+    time.sleep(2)
 
     browser.find_element_by_id("form-submit").click()
 
